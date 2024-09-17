@@ -1,7 +1,3 @@
-<!-- resources/views/menues/edit.blade.php -->
-
-<h1>Edit Menu</h1>
-
 <form method="POST" action="{{ route('menus.update', $menu->id) }}">
     @csrf
     @method('PUT')
